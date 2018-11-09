@@ -1,0 +1,49 @@
+2018/11/09 05:44:34 [notice] 70#70: signal process started
+2018/11/09 05:44:38 [error] 75#75: *46 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.111.1, server: test.nginx.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.nginx.com"
+2018/11/09 05:44:38 [error] 75#75: *46 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.111.1, server: test.nginx.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.nginx.com"
+2018/11/09 05:44:39 [error] 75#75: *46 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.111.1, server: test.nginx.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.nginx.com"
+2018/11/09 05:44:39 [error] 75#75: *46 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.111.1, server: test.nginx.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.nginx.com"
+2018/11/09 05:47:09 [emerg] 76#76: host not found in upstream "php-fpm" in /etc/nginx/conf.d/test.nginx.com.conf:29
+2018/11/09 05:47:42 [emerg] 81#81: invalid port in upstream "php:7.1-fpm:9000" in /etc/nginx/conf.d/test.nginx.com.conf:29
+2018/11/09 05:47:57 [notice] 86#86: signal process started
+2018/11/09 05:48:23 [notice] 92#92: signal process started
+2018/11/09 05:48:27 [error] 97#97: *52 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.111.1, server: test.nginx.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.nginx.com"
+2018/11/09 05:48:44 [error] 97#97: *52 open() "/var/www/docker_xingchen/www/api_bocs/public/robots.txt" failed (2: No such file or directory), client: 192.168.111.1, server: test.nginx.com, request: "GET /robots.txt HTTP/1.1", host: "test.nginx.com"
+2018/11/09 05:48:54 [error] 97#97: *52 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.111.1, server: test.nginx.com, request: "GET /static HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.nginx.com"
+2018/11/09 05:49:03 [error] 97#97: *52 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.111.1, server: test.nginx.com, request: "GET /.htaccess HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.nginx.com"
+2018/11/09 05:49:18 [notice] 98#98: signal process started
+2018/11/09 05:49:19 [error] 103#103: *59 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.111.1, server: test.nginx.com, request: "GET /.htaccess HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.nginx.com"
+2018/11/09 05:49:20 [error] 103#103: *59 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.111.1, server: test.nginx.com, request: "GET /.htaccess HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.nginx.com"
+2018/11/09 05:49:20 [error] 103#103: *59 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.111.1, server: test.nginx.com, request: "GET /.htaccess HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.nginx.com"
+2018/11/09 05:49:20 [error] 103#103: *59 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.111.1, server: test.nginx.com, request: "GET /.htaccess HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.nginx.com"
+2018/11/09 05:49:21 [error] 103#103: *59 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.111.1, server: test.nginx.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.nginx.com"
+2018/11/09 05:52:34 [notice] 114#114: signal process started
+2018/11/09 05:54:46 [notice] 120#120: signal process started
+2018/11/09 05:57:46 [notice] 126#126: signal process started
+2018/11/09 05:58:08 [notice] 132#132: signal process started
+2018/11/09 06:01:09 [notice] 138#138: signal process started
+2018/11/09 06:01:11 [error] 143#143: *91 access forbidden by rule, client: 192.168.111.1, server: test.nginx.com, request: "GET /robots.txt HTTP/1.1", host: "test.nginx.com"
+2018/11/09 06:15:10 [notice] 170#170: signal process started
+2018/11/09 06:16:44 [notice] 181#181: signal process started
+2018/11/09 06:18:50 [notice] 187#187: signal process started
+2018/11/09 06:19:03 [notice] 193#193: signal process started
+2018/11/09 06:19:49 [notice] 202#202: signal process started
+2018/11/09 06:19:56 [notice] 211#211: signal process started
+2018/11/09 06:20:32 [notice] 222#222: signal process started
+2018/11/09 06:23:12 [notice] 235#235: signal process started
+2018/11/09 06:25:02 [warn] 241#241: conflicting server name "test.nginx.com" on 0.0.0.0:80, ignored
+2018/11/09 06:25:02 [notice] 241#241: signal process started
+2018/11/09 06:25:02 [warn] 1#1: conflicting server name "test.nginx.com" on 0.0.0.0:80, ignored
+2018/11/09 06:26:05 [warn] 247#247: conflicting server name "test.nginx.com" on 0.0.0.0:80, ignored
+2018/11/09 06:26:05 [notice] 247#247: signal process started
+2018/11/09 06:26:05 [warn] 1#1: conflicting server name "test.nginx.com" on 0.0.0.0:80, ignored
+2018/11/09 06:26:22 [warn] 253#253: conflicting server name "test.nginx.com" on 0.0.0.0:80, ignored
+2018/11/09 06:26:22 [notice] 253#253: signal process started
+2018/11/09 06:26:22 [warn] 1#1: conflicting server name "test.nginx.com" on 0.0.0.0:80, ignored
+2018/11/09 06:26:38 [warn] 259#259: conflicting server name "test.nginx.com" on 0.0.0.0:80, ignored
+2018/11/09 06:26:38 [notice] 259#259: signal process started
+2018/11/09 06:26:38 [warn] 1#1: conflicting server name "test.nginx.com" on 0.0.0.0:80, ignored
+2018/11/09 06:28:32 [notice] 265#265: signal process started
+2018/11/09 06:28:54 [notice] 271#271: signal process started
+2018/11/09 06:29:25 [notice] 277#277: signal process started
+2018/11/09 06:30:23 [notice] 283#283: signal process started
